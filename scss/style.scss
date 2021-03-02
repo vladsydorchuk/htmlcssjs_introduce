@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+// variables
+$accent-color: #1e4159;
+$accent-bgcolor: #f3f8fe;
+
+.header {
+    padding: 20px 0;
+    background-color: $accent-bgcolor;
+    color: $accent-color;
+    text-align: center;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+.language {
+    padding: 50px 0;
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        color: $accent-color;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    &__item {
+        max-width: 300px;
+        background-color: #fff;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        opacity: .7;
+        transition: all .4s;
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+        &:hover {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        &-img {
+            max-width: inherit;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        &-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        &-title {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 18px;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        &-link {
+            color:#4089ED;
+            position: relative;
+            transition: all .3s;
+
+            &:hover {
+                color:#ed40d6;
+            }
+        }
+    }
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: $accent-bgcolor;
+    color: $accent-color;
+    text-align: center;
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 10px 0;
+
+        &-item {
+            margin-right: 10px;
+            opacity: .7;
+            transition: all .3s;
+            
+            &:hover {
+                opacity: 1;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-img {
+            width: 36px;
+        }
+    }
+}
