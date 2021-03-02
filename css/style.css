@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-  max-width: 1220px;
-  padding: 0 10px;
+  max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -139,4 +139,21 @@ body {
 
 .footer__social-img {
   width: 36px;
+}
+
+@media (max-width: 980px) {
+  .container {
+    max-width: 800px;
+  }
+  .language__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .language__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
