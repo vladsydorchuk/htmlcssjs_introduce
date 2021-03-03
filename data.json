@@ -28,6 +28,23 @@
           }
         }
       ]
+    },
+    {
+      "title": "JS Base",
+      "items": [
+        {
+          "image": {
+            "link": "https...",
+            "alt": "google-chrome"
+          },
+          "title": "Google Chrome",
+          "text": "Браузер который может быть использован для просмотра твоих крутых лендпейджей, верстки и не только",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://www.google.com/intl/ru/chrome/"
+          }
+        }
+      ]
     }
   ]
 }
