@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "title": "HTML|CSS",
+      "items": [
+        {
+          "image": {
+            "link": "https...",
+            "alt": "google-chrome"
+          },
+          "title": "Google Chrome",
+          "text": "Браузер который может быть использован для просмотра твоих крутых лендпейджей, верстки и не только",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://www.google.com/intl/ru/chrome/"
+          }
+        },
+        {
+          "image": {
+            "link": "https...",
+            "alt": "vs-code"
+          },
+          "title": "VS Code",
+          "text": "Крутой редактор для крутого будущего Front-end девелопера. Тут встроенный emmet - а это просто пушка, которая сократит время верстки в разы",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://www.google.com/intl/ru/chrome/"
+          }
+        }
+      ]
+    }
+  ]
+}
