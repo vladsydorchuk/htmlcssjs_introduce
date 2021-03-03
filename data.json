@@ -26,22 +26,41 @@
             "caption": "Скачать",
             "link": "https://code.visualstudio.com/download"
           }
-        }
-      ]
-    },
-    {
-      "title": "JS Base",
-      "items": [
+        },
         {
           "image": {
-            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/codewars.jpg",
-            "alt": "codewars"
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/live-server.jpg",
+            "alt": "live server"
           },
-          "title": "CodeWars",
-          "text": "Сайт, на котором ты можешь стать лучшим бойцом решая разного рода задачи по JS и другим языкам. Чтобы зарегистрироваться - нужно решить задачу",
+          "title": "Live server",
+          "text": "Это расширение для VS Code, которое поможет сэкономить тебе кучу времени на не нужном нажатии F5 каждый раз, когда ты хочешь обновить страницу",
           "button": {
-            "caption": "Открыть",
-            "link": "https://www.codewars.com/"
+            "caption": "Скачать",
+            "link": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/sass.jpg",
+            "alt": "sass"
+          },
+          "title": "Sass",
+          "text": "Не знаешь что такое препроцессоры? Это еще одна крутая фича, которая позволит сэкономить кучу времени и попить чай с печеньками. Для начала установим расширение в VS Code чтобы он понимал синтаксис",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/live-sass-compiler.jpg",
+            "alt": "live sass compiler"
+          },
+          "title": "Live Sass Compiler",
+          "text": "Это то, что позволит тебе в одну секунду сгенерировать из препроцессорного файла *.scss в обычный *.css т.к. к файлам *.html можно подключить только *.css файлы",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass"
           }
         }
       ]
