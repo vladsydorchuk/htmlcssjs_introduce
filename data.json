@@ -62,6 +62,131 @@
             "caption": "Скачать",
             "link": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass"
           }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/figma.jpg",
+            "alt": "figma"
+          },
+          "title": "Figma",
+          "text": "Где будем смотреть шаблоны? Конечно же в Figma. Очень удобная программа для начинающих т.к. генерит css стили",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://www.figma.com/downloads/"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/github.jpg",
+            "alt": "github"
+          },
+          "title": "GitHub",
+          "text": "У каждого крутого верстальщика/программиста должен быть аккаунт на гите с парой репозиториев чтобы показать будущему работодателю что ты можешь",
+          "button": {
+            "caption": "Регистрация",
+            "link": "https://github.com/"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/github-desktop.jpg",
+            "alt": "github-desktop"
+          },
+          "title": "GitHub Desktop",
+          "text": "Чтобы было удобнее управлять своими репозиториями и обновлять там информацию с компа - установи еще это",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://desktop.github.com/"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/zoom.jpg",
+            "alt": "zoom"
+          },
+          "title": "Zoom",
+          "text": "Чтобы нам было удобно общаться - установи себе Zoom. Там будут проходить уроки где мы будем становиться лучше",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://zoom.us/download"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/free-code-camp.jpg",
+            "alt": "freeCodeCamp"
+          },
+          "title": "freeCodeCamp",
+          "text": "Сайт, на котором ты можешь оттачивать свои скиллы крутого верстальщика. Там есть большой блок посвященный HTML/CSS. Лучше зарегистрироваться, чтобы сохранялся прогресс",
+          "button": {
+            "caption": "Регистрация",
+            "link": "https://www.freecodecamp.org/"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/jsfiddle.jpg",
+            "alt": "jsfiddle"
+          },
+          "title": "JSFiddle",
+          "text": "Сайт, где ты можешь поверстать и покодить прямо в браузере. Удобно так же тем, что можно кинуть ссылку другу на то, что ты сделал",
+          "button": {
+            "caption": "Открыть",
+            "link": "https://jsfiddle.net/"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/google-translate.jpg",
+            "alt": "google translate"
+          },
+          "title": "Google Translate",
+          "text": "Расширение на Google Chrome браузер. Будет полезно, если еще не мастерски владеешь английским (и другими языками), но хочешь быстро получить перевод нужного слова или предложения",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=ru"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/english-dom.jpg",
+            "alt": "english dom"
+          },
+          "title": "EnglishDom",
+          "text": "Еще одно расширение для Google Chrome браузера. Так же поможет с переводом, но теперь будет достаточно выделить текст прямо в браузере",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://chrome.google.com/webstore/detail/englishdom-translator/pjpmplceboleilonncbcmhkonfnojpla?hl=ru"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/quizful.jpg",
+            "alt": "quizful"
+          },
+          "title": "QuizFul",
+          "text": "Хочешь немного отдохнуть от верстки? Тогда попробуй пройди тесты на этом сайте. Там есть тесты для HTML/CSS, JS и много чего другого",
+          "button": {
+            "caption": "Регистрация",
+            "link": "http://www.quizful.net/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "JS Base",
+      "items": [
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/codewars.jpg",
+            "alt": "codewars"
+          },
+          "title": "CodeWars",
+          "text": "Сайт, на котором ты можешь стать лучшим бойцом решая разного рода задачи по JS и другим языкам. Чтобы зарегистрироваться - нужно решить задачу",
+          "button": {
+            "caption": "Регистрация",
+            "link": "https://www.codewars.com/"
+          }
         }
       ]
     }
