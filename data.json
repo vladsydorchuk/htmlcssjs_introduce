@@ -5,7 +5,7 @@
       "items": [
         {
           "image": {
-            "link": "https://github.com/vladsydorchuk/htmlcssjs_introduce/blob/master/images/google-chrome.jpg",
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/google-chrome.jpg",
             "alt": "google-chrome"
           },
           "title": "Google Chrome",
@@ -17,7 +17,7 @@
         },
         {
           "image": {
-            "link": "https://github.com/vladsydorchuk/htmlcssjs_introduce/blob/master/images/vscode.jpg",
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/vscode.jpg",
             "alt": "vs-code"
           },
           "title": "VS Code",
