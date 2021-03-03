@@ -24,7 +24,7 @@
           "text": "Крутой редактор для крутого будущего Front-end девелопера. Тут встроенный emmet - а это просто пушка, которая сократит время верстки в разы",
           "button": {
             "caption": "Скачать",
-            "link": "https://www.google.com/intl/ru/chrome/"
+            "link": "https://code.visualstudio.com/download"
           }
         }
       ]
@@ -34,14 +34,14 @@
       "items": [
         {
           "image": {
-            "link": "https...",
-            "alt": "google-chrome"
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/codewars.jpg",
+            "alt": "codewars"
           },
-          "title": "Google Chrome",
-          "text": "Браузер который может быть использован для просмотра твоих крутых лендпейджей, верстки и не только",
+          "title": "CodeWars",
+          "text": "Сайт, на котором ты можешь стать лучшим бойцом решая разного рода задачи по JS и другим языкам. Чтобы зарегистрироваться - нужно решить задачу",
           "button": {
-            "caption": "Скачать",
-            "link": "https://www.google.com/intl/ru/chrome/"
+            "caption": "Открыть",
+            "link": "https://www.codewars.com/"
           }
         }
       ]
