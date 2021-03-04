@@ -124,7 +124,6 @@ $accent-bgcolor: #f3f8fe;
         display: flex;
         justify-content: center;
         align-items: center;
-
         padding: 10px 0;
 
         &-item {
@@ -154,6 +153,19 @@ $accent-bgcolor: #f3f8fe;
     .language {
         &__grid {
             grid-template-columns: repeat(2, 1fr);
+            column-gap: 40px;
+        }
+
+        &__item {
+            opacity: 1;
+
+            &:nth-child(even) {
+                justify-self: start;
+            }
+
+            &:nth-child(odd) {
+                justify-self: end;
+            }
         }
     }
 }
@@ -162,6 +174,14 @@ $accent-bgcolor: #f3f8fe;
     .language {
         &__grid {
             grid-template-columns: repeat(1, 1fr);
+        }
+
+        &__item {
+            box-shadow: 00px 0px 50px rgba(229, 233, 246, 1);
+
+            &:nth-child(n) {
+                justify-self: center;
+            }
         }
     }
 }
