@@ -24,8 +24,8 @@ function getDataFromJSON() {
         return 'Complete';
 }
 
-let container = document.querySelector('.data');
 function generateHtmlBlocks(data) {
+    let container = document.querySelector('.data');
     container.innerHTML = data.map(block => (
         `<section class="language">
             <h3 class="language__title">${block.title}</h3>
