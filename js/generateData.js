@@ -5,7 +5,7 @@ function init() {
 }
 
 function getDataFromJSON() {
-    fetch('https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/data.json')
+    fetch('https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/settings.json')
         .then(response => {
             if (!response.ok) {
                 throw new Exception("HTTP error " + response.status);

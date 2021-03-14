@@ -77,6 +77,18 @@
         },
         {
           "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/font-fascia.jpg",
+            "alt": "font-fascia"
+          },
+          "title": "Font Fascia",
+          "text": "Разобрались с Figma? Теперь же надо узнать какие шрифты используются в шаблоне. Конечно, можно и руками, но, есть крутой плагин для Figma который все покажет :)",
+          "button": {
+            "caption": "Скачать",
+            "link": "https://www.figma.com/community/plugin/746097413727734148/Font-Fascia"
+          }
+        },
+        {
+          "image": {
             "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/github.jpg",
             "alt": "github"
           },
@@ -186,6 +198,18 @@
           "button": {
             "caption": "Регистрация",
             "link": "https://www.codewars.com/"
+          }
+        },
+        {
+          "image": {
+            "link": "https://raw.githubusercontent.com/vladsydorchuk/htmlcssjs_introduce/master/images/learn-javascript.jpg",
+            "alt": "learn.javascript"
+          },
+          "title": "JavaScript учебник",
+          "text": "Супер крутой сайт если ты хочешь изучить JavaScript и стать крутым разрабом :) Поможет понять как основы, так и более сложные темы по JS",
+          "button": {
+            "caption": "Читать",
+            "link": "https://learn.javascript.ru/"
           }
         }
       ]
